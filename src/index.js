@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'
 import reportWebVitals from './reportWebVitals';
-import Library from './Library';
+import CommentList from './chapter_05/commentList';
+import ConfirmButton from './chapter_08/confirmButton';
+
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <Library />
+    <ConfirmButton/>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
 
 reportWebVitals(); 
